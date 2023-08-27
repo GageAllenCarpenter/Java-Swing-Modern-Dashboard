@@ -24,11 +24,6 @@ public class HeaderPanel extends javax.swing.JPanel implements ICustomPaint { //
     public HeaderPanel() {
         initComponents();
         setOpaque(false);
-        seedData();
-    }
-
-    private void seedData(){
-        search.searchApps("google");
     }
 
     @SuppressWarnings("all")
@@ -109,7 +104,6 @@ public class HeaderPanel extends javax.swing.JPanel implements ICustomPaint { //
      * @param evt the mouse event
      */
     private void searchLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_searchLabelMouseClicked
-        search.searchApps(searchText.getText());
         search.searchRows(searchText.getText());
     }//GEN-LAST:event_searchLabelMouseClicked
 

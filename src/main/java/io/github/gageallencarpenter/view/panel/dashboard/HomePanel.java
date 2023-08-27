@@ -143,7 +143,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
 
         launchPadLayeredPane.setLayout(new java.awt.GridLayout(3, 4, 10, 10));
 
-        launchCardPanel1.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel1.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel1.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel1.setIconLabel(new javax.swing.ImageIcon(getClass().getResource("/icon/stock.png"))); // NOI18N
         launchCardPanel1.setTitleLabelText("App One");
         launchCardPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -153,7 +154,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel1);
 
-        launchCardPanel7.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel7.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel7.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel7.setIconLabel(new javax.swing.ImageIcon(getClass().getResource("/icon/stock.png"))); // NOI18N
         launchCardPanel7.setTitleLabelText("App Two");
         launchCardPanel7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -163,7 +165,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel7);
 
-        launchCardPanel9.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel9.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel9.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel9.setIconLabel(new javax.swing.ImageIcon(getClass().getResource("/icon/stock.png"))); // NOI18N
         launchCardPanel9.setTitleLabelText("App Three");
         launchCardPanel9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -173,7 +176,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel9);
 
-        launchCardPanel8.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel8.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel8.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel8.setIconLabel(new javax.swing.ImageIcon(getClass().getResource("/icon/stock.png"))); // NOI18N
         launchCardPanel8.setTitleLabelText("App Four");
         launchCardPanel8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -183,7 +187,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel8);
 
-        launchCardPanel6.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel6.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel6.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel6.setIconLabel(new javax.swing.ImageIcon(getClass().getResource("/icon/stock.png"))); // NOI18N
         launchCardPanel6.setTitleLabelText("App Five");
         launchCardPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -193,7 +198,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel6);
 
-        launchCardPanel10.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel10.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel10.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel10.setIconLabel(new javax.swing.ImageIcon(getClass().getResource("/icon/stock.png"))); // NOI18N
         launchCardPanel10.setTitleLabelText("App Six");
         launchCardPanel10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -203,7 +209,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel10);
 
-        launchCardPanel12.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel12.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel12.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel12.setIconLabel(new javax.swing.ImageIcon(getClass().getResource("/icon/stock.png"))); // NOI18N
         launchCardPanel12.setTitleLabelText("App Seven");
         launchCardPanel12.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -213,7 +220,9 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel12);
 
-        launchCardPanel11.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel11.setAutoscrolls(true);
+        launchCardPanel11.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel11.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel11.setIconLabel(new javax.swing.ImageIcon(getClass().getResource("/icon/stock.png"))); // NOI18N
         launchCardPanel11.setTitleLabelText("App Eight");
         launchCardPanel11.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -223,7 +232,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel11);
 
-        launchCardPanel4.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel4.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel4.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel4.setTitleLabelText("App Nine");
         launchCardPanel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -232,7 +242,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel4);
 
-        launchCardPanel5.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel5.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel5.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel5.setTitleLabelText("App Ten");
         launchCardPanel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -241,7 +252,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel5);
 
-        launchCardPanel3.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel3.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel3.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel3.setTitleLabelText("App Eleven");
         launchCardPanel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -250,7 +262,8 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         });
         launchPadLayeredPane.add(launchCardPanel3);
 
-        launchCardPanel2.setColor2(new java.awt.Color(55, 55, 55));
+        launchCardPanel2.setColor1(new java.awt.Color(133, 166, 201));
+        launchCardPanel2.setColor2(new java.awt.Color(133, 166, 201));
         launchCardPanel2.setTitleLabelText("App Twelve");
         launchCardPanel2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -343,10 +356,12 @@ public class HomePanel extends javax.swing.JPanel { //TODO : Add URL Functionali
         overviewLayeredPane.setLayout(new java.awt.GridLayout(2, 1, 5, 5));
 
         descriptionCardPanel1.setArcWidth(40);
-        descriptionCardPanel1.setColor2(new java.awt.Color(0, 0, 0));
+        descriptionCardPanel1.setColor1(new java.awt.Color(133, 166, 201));
+        descriptionCardPanel1.setColor2(new java.awt.Color(133, 166, 201));
         overviewLayeredPane.add(descriptionCardPanel1);
 
-        descriptionCardPanel2.setColor2(new java.awt.Color(0, 0, 0));
+        descriptionCardPanel2.setColor1(new java.awt.Color(133, 166, 201));
+        descriptionCardPanel2.setColor2(new java.awt.Color(133, 166, 201));
         overviewLayeredPane.add(descriptionCardPanel2);
 
         overviewLabel.setForeground(new java.awt.Color(255, 255, 255));

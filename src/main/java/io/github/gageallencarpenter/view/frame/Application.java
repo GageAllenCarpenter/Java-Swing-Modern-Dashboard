@@ -17,7 +17,6 @@ import java.net.URI;
  * @author <a href="https://www.linkedin.com/in/gage-carpenter-07750a174/">Gage Carpenter</a>
  */
 public class Application extends JFrame{
-
     private static Application instance;
     private ResourceList resource;
 
@@ -26,7 +25,6 @@ public class Application extends JFrame{
      */
     private Application(){
         initComponents();
-
         initDrag();
         mainPanel.getSimpleTitleBar().init(this);
         int end  = ResourceList.size() + 5;

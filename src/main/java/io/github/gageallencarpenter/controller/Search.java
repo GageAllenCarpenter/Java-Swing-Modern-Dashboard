@@ -54,31 +54,4 @@ public class Search {
             }
         }
     }
-
-    /**
-     * Searches for apps using the specified text and updates the app table with the search results.
-     *
-     * @param text The text to search for.
-     */
-    public void searchApps(String text){
-        apps.clear();
-        try{
-            apps = powershell.execute("choco find " + text);
-        }catch (Exception e){
-            new Error("Failed to search for" + text);
-        }
-        apps.removeIf(s -> s.contains("Chocolatey v") || s.contains("packages found") || s.isEmpty());
-        for (int idx = 0; idx < apps.size(); idx++) {
-            String app = apps.get(idx);
-            int spaceIndex = app.indexOf(' ');
-            if (spaceIndex >= 0) {
-                apps.set(idx, app.substring(0, spaceIndex));
-            }
-        }
-        SwingUtilities.invokeLater(()->{
-            for(String app: apps){
-                AppTablePanel.getInstance().getTable().addRow(new Object[]{app,0,AppTablePanel.getInstance().getInstallButton(), AppTablePanel.getInstance().getUninstallButton()});
-            }
-        });
-    }
 }

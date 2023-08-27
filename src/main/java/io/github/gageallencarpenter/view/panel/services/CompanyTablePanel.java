@@ -57,10 +57,17 @@ public class CompanyTablePanel extends javax.swing.JPanel implements ITable {
     public synchronized void initTable() {
         companyTable.setFillsViewportHeight(true);
         companyTable.setDefaultRenderer(Object.class, new RenderButton());
-        //TODO: Update
-/*        cache.get(FolderList.FOLDER, FileList.ORGANIZATION, new TypeReference<>() {}).forEach(organization -> {
-            SwingUtilities.invokeLater(() ->companyTable.addRow(new Object[]{organization.getName(), 0, 0, button}));
-        });*/
+        //Note: The following code is for demonstration purposes only
+        companyTable.addRow(new Object[]{"Company 1", 1, button, "      inactive"});
+        companyTable.addRow(new Object[]{"Company 2", 1, button, "      inactive"});
+        companyTable.addRow(new Object[]{"Company 3", 1, button, "      inactive"});
+        companyTable.addRow(new Object[]{"Company 4", 1, button, "      inactive"});
+        companyTable.addRow(new Object[]{"Company 5", 1, button, "      inactive"});
+        companyTable.addRow(new Object[]{"Company 6", 1, button, "      inactive"});
+        companyTable.addRow(new Object[]{"Company 7", 1, button, "      inactive"});
+        companyTable.addRow(new Object[]{"Company 8", 1, button, "      inactive"});
+        companyTable.addRow(new Object[]{"Company 9", 1, button, "      inactive"});
+        companyTable.addRow(new Object[]{"Company 10", 1, button, "     inactive"});
     }
 
     public void updateTable(){

@@ -55,6 +55,17 @@ public class AppTablePanel extends javax.swing.JPanel implements ITable {
     private synchronized void initTable(){
         appTable.setFillsViewportHeight(true);
         appTable.setDefaultRenderer(Object.class, new RenderButton());
+        //Note: The following code is for demonstration purposes only
+        appTable.addRow(new Object[]{"App 1", 1, installButton, uninstallButton});
+        appTable.addRow(new Object[]{"App 2", 1, installButton, uninstallButton});
+        appTable.addRow(new Object[]{"App 3", 1, installButton, uninstallButton});
+        appTable.addRow(new Object[]{"App 4", 1, installButton, uninstallButton});
+        appTable.addRow(new Object[]{"App 5", 1, installButton, uninstallButton});
+        appTable.addRow(new Object[]{"App 6", 1, installButton, uninstallButton});
+        appTable.addRow(new Object[]{"App 7", 1, installButton, uninstallButton});
+        appTable.addRow(new Object[]{"App 8", 1, installButton, uninstallButton});
+        appTable.addRow(new Object[]{"App 9", 1, installButton, uninstallButton});
+        appTable.addRow(new Object[]{"App 10", 1, installButton, uninstallButton});
     }
 
     /**

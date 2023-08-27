@@ -58,8 +58,17 @@ public class ServiceTablePanel extends javax.swing.JPanel implements ITable {
     private synchronized void initTable(){
         serviceTable.setFillsViewportHeight(true);
         serviceTable.setDefaultRenderer(Object.class, new RenderButton());
-        //TODO: Update
-        //cache.get(FolderList.FOLDER, FileList.SERVICES, new TypeReference<>() {}).forEach(service -> SwingUtilities.invokeLater(() -> serviceTable.addRow(new Object[]{CategoryList.convertFromCategory(service.getCategory()), service.getName(), 0, button})));
+        //Note: The following code is for demonstration purposes only
+        serviceTable.addRow(new Object[]{"Service 1", 1, button, "      inactive"});
+        serviceTable.addRow(new Object[]{"Service 2", 1, button, "      inactive"});
+        serviceTable.addRow(new Object[]{"Service 3", 1, button, "      inactive"});
+        serviceTable.addRow(new Object[]{"Service 4", 1, button, "      inactive"});
+        serviceTable.addRow(new Object[]{"Service 5", 1, button, "      inactive"});
+        serviceTable.addRow(new Object[]{"Service 6", 1, button, "      inactive"});
+        serviceTable.addRow(new Object[]{"Service 7", 1, button, "      inactive"});
+        serviceTable.addRow(new Object[]{"Service 8", 1, button, "      inactive"});
+        serviceTable.addRow(new Object[]{"Service 9", 1, button, "      inactive"});
+        serviceTable.addRow(new Object[]{"Service 10", 1, button, "     inactive"});
     }
 
     public void updateTable(){

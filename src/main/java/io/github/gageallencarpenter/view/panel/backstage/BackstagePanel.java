@@ -214,7 +214,10 @@ public class BackstagePanel extends javax.swing.JPanel { //TODO: Add Event Viewe
      * @param evt the event that triggers this method
      */
     private void enterButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enterButtonActionPerformed
-        powershell.execute(commandField.getText());
+        for(String s: powershell.execute(commandField.getText())){
+            terminalConsole.append(s);
+            terminalConsole.append("\n");
+        }
         commandField.setText("");
     }//GEN-LAST:event_enterButtonActionPerformed
 

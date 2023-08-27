@@ -149,8 +149,11 @@
                   <SubComponents>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel1">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="iconLabel" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/icon/stock.png"/>
@@ -163,8 +166,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel7">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="iconLabel" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/icon/stock.png"/>
@@ -177,8 +183,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel9">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="iconLabel" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/icon/stock.png"/>
@@ -191,8 +200,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel8">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="iconLabel" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/icon/stock.png"/>
@@ -205,8 +217,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel6">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="iconLabel" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/icon/stock.png"/>
@@ -219,8 +234,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel10">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="iconLabel" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/icon/stock.png"/>
@@ -233,8 +251,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel12">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="iconLabel" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/icon/stock.png"/>
@@ -247,8 +268,12 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel11">
                       <Properties>
+                        <Property name="autoscrolls" type="boolean" value="true"/>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="iconLabel" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/icon/stock.png"/>
@@ -261,8 +286,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel4">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="titleLabelText" type="java.lang.String" value="App Nine"/>
                       </Properties>
@@ -272,8 +300,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel5">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="titleLabelText" type="java.lang.String" value="App Ten"/>
                       </Properties>
@@ -283,8 +314,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel3">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="titleLabelText" type="java.lang.String" value="App Eleven"/>
                       </Properties>
@@ -294,8 +328,11 @@
                     </Component>
                     <Component class="io.github.gageallencarpenter.view.panels.TitlePanel" name="launchCardPanel2">
                       <Properties>
+                        <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
+                        </Property>
                         <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="37" green="37" red="37" type="rgb"/>
+                          <Color blue="c9" green="a6" red="85" type="rgb"/>
                         </Property>
                         <Property name="titleLabelText" type="java.lang.String" value="App Twelve"/>
                       </Properties>
@@ -429,15 +466,21 @@
             <Component class="io.github.gageallencarpenter.view.panels.DescriptionCardPanel" name="descriptionCardPanel1">
               <Properties>
                 <Property name="arcWidth" type="int" value="40"/>
+                <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="c9" green="a6" red="85" type="rgb"/>
+                </Property>
                 <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" red="0" type="rgb"/>
+                  <Color blue="c9" green="a6" red="85" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
             <Component class="io.github.gageallencarpenter.view.panels.DescriptionCardPanel" name="descriptionCardPanel2">
               <Properties>
+                <Property name="color1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="c9" green="a6" red="85" type="rgb"/>
+                </Property>
                 <Property name="color2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" red="0" type="rgb"/>
+                  <Color blue="c9" green="a6" red="85" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
