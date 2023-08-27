@@ -41,11 +41,11 @@ To run the Java Swing Modern Dashboard on your system, follow these steps:
 2. Compile the application: ``javac Main.java``
 3. Run the application: ``java Main``
 
-##License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Contribution
+## Contribution
 
 Feel free to contribute, open issues, or submit pull requests to enhance the Java Swing Modern Dashboard. Enjoy the power of modern Java Swing UI for managing your system efficiently!
 
